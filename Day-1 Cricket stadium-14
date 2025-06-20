@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int a,b,p;
+    scanf("%d%d",&a,&b);
+    p=2*(a+b);
+    printf("%d\n",p);
+    printf("%d\n",(a*b));
+    
+    return 0;
+}
