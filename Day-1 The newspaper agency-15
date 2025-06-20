@@ -1,0 +1,19 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int w; 
+    float x, y; 
+    float profit;
+    scanf("%d", &w);
+    scanf("%f", &x);
+    scanf("%f", &y); 
+    profit = (w * (x - y)) - 100;
+    printf("%.0f\n", profit);
+    return 0;
+}
