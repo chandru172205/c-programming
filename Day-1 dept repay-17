@@ -1,0 +1,23 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+int main() {
+    float X, Y, R;
+    float interest, total_amount, discount, final_amount;
+    scanf("%f", &X);
+    scanf("%f", &Y);
+    scanf("%f", &R);
+    interest = (X * Y * R) / 100;
+    total_amount = X + interest;
+    discount = 0.02 * interest;
+    final_amount = total_amount - discount;
+    printf("%.2f\n", interest);
+    printf("%.2f\n", total_amount);
+    printf("%.2f\n", discount);
+    printf("%.2f\n", final_amount);
+    return 0;
+}
